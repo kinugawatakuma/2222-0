@@ -1,2 +1,4 @@
 h1 { color: blue; }
 th, td { border: dashed thick black; }
+<th class=“important”> { color: red; }</th>
+th.important { color: red; }
