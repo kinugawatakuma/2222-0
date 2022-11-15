@@ -1,1 +1,1 @@
-function hennkou() {document.getElementById('josaiho-mu').innerHTML = '<img src="./image/jo2.jpg">';}
+function hennkou() {document.getElementById('mizuta').innerHTML='<img src="./image/mizuta2.jpg" alt=水田２>';}
