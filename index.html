@@ -149,60 +149,30 @@ onclick="hyoji13()">
  
 
 <script>
+function hyoji13() {
+//表示する文字
+var str13 = "一文字ずつ表示します。";
+//テキストボックスの文字数
+var cnt13 = document.timer13.moji13.value.length;
+//文字が全部表示されているか確認
+if ( cnt13 < 11 ) {
+//現在より1文字多く切り出して表示
+document.timer13.moji13.value = str13.substr(0,cnt13+1); } else {
+//全て表示されたら、空文字に戻す
+document.timer13.moji13.value = ""; }
+//setTimeout()を含む関数を呼び出す
+setTimeout("hyoji13()",1000); }
 
-function hyoji()
-{
-  //表示する文字
-  var str = "一文字ずつ表示します。";  
-
-  //テキストボックスの文字数
-  var cnt = document.timer.moji.value.length;
-
-  //文字が全部表示されているか確認
-  if ( cnt < 11 )
-  {
-    //現在より1文字多く切り出して表示
-    document.timer.moji.value = str.substr(0,cnt+1);
-  }
-  else
-  {
-    //全て表示されたら、空文字に戻す
-    document.timer.moji.value = "";
-  }
-
-  //setTimeout()を含む関数を呼び出す
-  setTimeout("hyoji()",1000);
-}
-
-
-</script>
- 
- 
+</script> 
  
  
  <h1>練習問題6-14 </h1>
- 
- 
- 
- 
- 
- <p id="demo"></p>
-
-<script>
-var carName = "Volvo";
-document.getElementById("demo").innerHTML = carName;
-</script>
- 
  <script>
- var person = "John Doe",
-carName = "Volvo",
-price = 200;
- 
- 
+  function hyoji2()
+  var img src="./image/jo2.jpg" width="300" height="225" alt="学校"
+  
+  
  </script>
- 
- 
- 
  
  
  
