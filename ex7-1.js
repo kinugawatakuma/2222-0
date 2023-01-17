@@ -1,3 +1,3 @@
 function sayhello71() {
-alert('Hello, ' +
+alert('Hello, ' +'takuma'
 document.getElementById('who71').value + '!');
